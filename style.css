@@ -72,3 +72,8 @@ article.post {
 	margin: 0 auto;
 	overflow: auto;
 }
+
+.featured_image img {
+	width: 100%;
+	height: auto;
+}
