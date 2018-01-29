@@ -8,39 +8,67 @@ Version: 1.0
 
 */
 
-body{
-	font-family:Roboto;
-	font-size:14px;
-	color:#22221F;
-	background:#F5F3F3;
-	margin:0;
-	padding:0;
-	line-height:1.8em;
+body {
+	font-family: Roboto;
+	font-size: 14px;
+	color: #22221F;
+	background: #F5F3F3;
+	margin: 0;
+	padding: 0;
+	line-height: 1.8em;
 }
 
-header{
-	background:#454545;
-	color:#F5F3F3;
-	padding:15px 15px;
+header {
+	background: #454545;
+	color: #F5F3F3;
+	padding: 15px 15px;
 }
 
-header h1{
-	color:#F5F3F3;
-	margin:0;
-	padding:0;
-	padding-bottom:10px;
+header h1 {
+	color: #F5F3F3;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 10px;
 }
-footer{
-	background:#454545;
-	color:#F5F3F3;
+
+footer {
+	background: #454545;
+	color: #F5F3F3;
 	padding: 15px 15px;
 	text-align: center;
 }
-.main{
+
+a {
+	color: #383737;
+}
+
+
+a.read-more {
+	display: inline-block;
+	background: #454545;
+	color: #ffffff;
+	padding: 4px 8px;
+	margin-bottom: 15px;
+	text-decoration: none;
+}
+
+article.post {
+	border-bottom: 1px #c6c4c4 solid;
+	overflow: hidden;
+}
+
+.main {
 	margin: 10px 0;
 }
-.container{
-	width:1200px;
-	margin:0 auto;
-	overflow:auto;
+
+.meta{
+	background: #454545;
+	color: #ffffff;
+	padding: 5px;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: auto;
 }
