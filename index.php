@@ -13,11 +13,11 @@
 					Created By <?php the_author(); ?> on <?php the_date(); ?>
 					</div>
 					<?php if(has_post_thumbnail()) : ?>
-					<div class="post-thumbnail">
+					<div class="featured_image">
 					<?php the_post_thumbnail(); ?>
 					</div>
 					<?php endif; ?>
-					<?php the_content(); ?>
+					<?php the_excerpt(); ?>
 				<br>
 				<a class="read-more" href="<?php the_permalink(); ?>">
 				read more
