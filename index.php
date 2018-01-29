@@ -17,7 +17,7 @@
 		<?php while(have_posts()): the_post(); ?>
 			<h3><?php the_title(); ?></h3>
 			<div class="meta">
-			Crated By <?php the_author(); ?>
+			Crated By <?php the_author(); ?> on <?php the_date(); ?>
 			</div>
 			<?php the_content(); ?>
 		<?php endwhile?>
@@ -25,5 +25,8 @@
 		<?php echo wpautop('add some posts, nothing found'); ?>
 	<?php endif; ?>
 	</div>
+	<footer>
+	<p>&copy; <?php the_date('Y'); ?> - <?php bloginfo('name'); ?></p>
+	</footer>
 </body>
 </html>
