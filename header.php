@@ -13,3 +13,13 @@
 		<span><?php bloginfo('description'); ?></span>
 		</div>
 	</header>
+	<nav class="navigation">
+		<div class="container">
+			<?php
+				$menu_items = array(
+					'menu_location' => 'primary'
+				);
+			?>
+		<?php wp_nav_menu($menu_items); ?>
+		</div>
+		</nav>
