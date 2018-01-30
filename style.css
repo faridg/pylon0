@@ -1,7 +1,7 @@
 /*
 
 Theme Name: Pylon0
-Author: Pixel Pylon Inc.
+Author: Farid @ Pixel Pylon Inc.
 Author URI: https://pixelpylon.com
 Description: Very first pylon theme
 Version: 1.0
@@ -11,59 +11,79 @@ Version: 1.0
 body {
 	font-family: Roboto;
 	font-size: 14px;
-	color: #22221F;
-	background: #F5F3F3;
+	color: #292F33;
+	background: #CCD6DD;
 	margin: 0;
 	padding: 0;
 	line-height: 1.8em;
 }
 
 header {
-	background: #454545;
-	color: #F5F3F3;
+	background: #66757F;
+	color: #FFFFFF;
 	padding: 15px 15px;
 }
 
 header h1 {
-	color: #F5F3F3;
+	color: #FFFFFF;
 	margin: 0;
 	padding: 0;
 	padding-bottom: 10px;
 }
 
 footer {
-	background: #454545;
-	color: #F5F3F3;
+	background: #292F33;
+	color: #FFFFFF;
 	padding: 15px 15px;
 	text-align: center;
 }
 
 a {
-	color: #383737;
+	color: #292F33;
 }
 
 
 a.read-more {
 	display: inline-block;
-	background: #454545;
-	color: #ffffff;
+	background: #292F33;
+	color: #FFFFFF;
 	padding: 4px 8px;
 	margin-bottom: 15px;
 	text-decoration: none;
 }
 
 article.post {
-	border-bottom: 1px #c6c4c4 solid;
+	border-bottom: 1px #66757F dotted;
 	overflow: hidden;
 }
 
 .main {
 	margin: 10px 0;
+	float: left;
+	width:65%;
 }
 
+.navigation{
+	background:#292F33;
+	color:#FFFFFF;
+	padding:5px;
+}
+.navigation ul{
+	margin:0;
+	padding:0;
+}
+.navigation li{
+	list-style:none;
+	float:left;
+	padding-right:15px;
+}
+.navigation a{
+	color:#FFFFFF;
+	text-decoration:none;
+}
 .meta{
-	background: #454545;
-	color: #ffffff;
+	background: #292F33;
+	color: #FFFFFF;
 	padding: 5px;
 }
 
@@ -76,4 +96,25 @@ article.post {
 .featured_image img {
 	width: 100%;
 	height: auto;
+}
+.clear{
+	clear:both;
+}
+.sidebar{
+	float:right;
+	width:25%;
+}
+.sidebar-widgets{
+	border:1px #E1E8ED solid;
+	padding: 15px 15px;
+	margin-bottom:15px;
+	margin-top:15px;
+}
+.sidebar-widgets li{
+	list-style:none;
+	line-height:2.2em;
+	border-bottom:dotted 1px #E1E8ED;
+}
+.sidebar-widgets a{
+	text-decoration: none;
 }
