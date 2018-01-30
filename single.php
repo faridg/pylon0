@@ -1,6 +1,6 @@
 <?php get_header(); ?>	
+<div class="container">
 	<div class="main">
-		<div class="container">
 		<?php if(have_posts()) : ?>
 			<?php while(have_posts()): the_post(); ?>
 				<article class="post">
@@ -23,6 +23,14 @@
 		<?php else : ?>
 			<?php echo wpautop('add some posts, nothing found'); ?>
 		<?php endif; ?>
-		</div>
+		<?php comments_template(); ?>
 	</div>
+		<div class="sidebar">
+			<?php if(is_active_sidebar('sidebar')) : ?>
+				<?php dynamic_sidebar('sidebar'); ?>
+			<?php endif; ?>
+		</div>
+		<div class="clear"></div>
+	
+</div>
 <?php get_footer(); ?>
